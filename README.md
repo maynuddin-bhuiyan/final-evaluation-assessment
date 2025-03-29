@@ -41,12 +41,23 @@ Functional and truthful despite minor deviation from "single statement."
 Loser: Response 1, 
 Fundamentally flawed code; misleads users. Returns undefined, Error: Cannot read property of undefined
 
-## 7. Capture Proof of Work ⇒ 
-Response 1 (Failure):
-Screenshot 1 (response1-error.png): Capture the Uncaught TypeError in the console.
+## 7. Proof of Work
 
-Response 2 (Success): 
-Screenshot 2 (response-success.png): Capture the console log of the valid <input> element. Console Success.
+### Response 1 (Failure)
+![Uncaught TypeError in Console](images/response1-error.png)  
+*Captured Error: `Uncaught TypeError: Cannot read properties of undefined (reading 'setAttribute')`*  
+**Explanation**:  
+Invalid method chaining of `setAttribute` returns `undefined`, causing subsequent calls to fail.
+
+---
+
+### Response 2 (Success)
+![Valid Hidden Input Logged in Console](images/response-success.png)  
+*Console output showing the valid `<input type="hidden"> element with attributes.*  
+**Explanation**:  
+Successful creation of the hidden input element using a helper function.
+
+---
 
 
 ## Key Features Client-Side Execution: 
@@ -55,6 +66,9 @@ Error Boundaries: try/catch blocks isolate failures.
 DOM Interaction: Appends the working element for visual inspection. 
 Next.js Compatibility: Adheres to Next.js conventions for page routing.
 
+
+## 📄 Google Docs Version  
+[Access the full evaluation document here](https://docs.google.com/document/d/19MkagFeJ-nTHQuf4G8Pw9tCFSNzYEfiR7cT5C9XhPyI/edit?usp=sharing) *(Replace with your Google Docs link)*
 
 
 
