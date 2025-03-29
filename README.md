@@ -50,7 +50,7 @@ Invalid method chaining of `setAttribute` returns `undefined`, causing subsequen
 ---
 
 ### Response 2 (Success)
-![Valid Hidden Input Logged in Console](images/response-success.png)  
+![Valid Hidden Input Logged in Console](/public/response-success.png)  
 *Console output showing the valid `<input type="hidden"> element with attributes.*  
 **Explanation**:  
 Successful creation of the hidden input element using a helper function.
