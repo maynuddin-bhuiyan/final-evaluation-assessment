@@ -42,7 +42,7 @@ Fundamentally flawed code; misleads users. Returns undefined, Error: Cannot read
 ## 7. Proof of Work
 
 ### Response 1 (Failure)
-![Uncaught TypeError in Console](images/response1-error.png)  
+![Uncaught TypeError in Console](/public/response1-error.png)  
 *Captured Error: `Uncaught TypeError: Cannot read properties of undefined (reading 'setAttribute')`*  
 **Explanation**:  
 Invalid method chaining of `setAttribute` returns `undefined`, causing subsequent calls to fail.
